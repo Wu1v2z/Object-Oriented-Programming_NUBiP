@@ -37,3 +37,13 @@ public:
         cout << "a = " << a << ", b = " << b << ", площа = " << area() << endl;
     }
 };
+
+typedef void (Hourglass::*FuncPtr)();
+
+int main() {
+    Hourglass h1;
+    h1.print_sqrt();
+
+    Hourglass h2(4, 6);
+    h2.print_sqrt
+}
