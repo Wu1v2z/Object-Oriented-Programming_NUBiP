@@ -20,5 +20,18 @@ public:
         cout << "Конструктор з параметрами" << end;
     }   
 
-    
+    ~Hourglass() {
+        cout << "Деструктор" << endl;
+    }
 
+    void setA(double A) { a = A; }
+    void setB(double B) { b = B; }
+
+    double getA() { return a; }
+    double getB() { return b; }
+    
+    double area() {
+        return (a * b)/ 2.0;
+    }
+
+    co
