@@ -1,10 +1,9 @@
-include <iostream>
+#include <iostream>
 using namespace std;
 
 class Hourglass {
     double a; // first 
     double b; // second
-}
 
 public:
 
@@ -34,4 +33,7 @@ public:
         return (a * b)/ 2.0;
     }
 
-    co
+    void print_sqrt() {
+        cout << "a = " << a << ", b = " << b << ", площа = " << area() << endl;
+    }
+};
