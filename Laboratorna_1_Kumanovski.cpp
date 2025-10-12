@@ -46,4 +46,18 @@ int main() {
 
     Hourglass h2(4, 6);
     h2.print_sqrt
+
+    Hourglass h2(4, 6);
+    h2.print_sqrt();
+
+    Hourglass *ptr = new Hourglass(10, 5);
+    ptr->print_sqrt();
+
+    FuncPtr f = &Hourglass::print_sqrt;
+    (ptr->*f)();
+
+    delete ptr;
+
+    cout << "Кінець програми" << endl;
+    return 0;
 }
