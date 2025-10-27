@@ -13,7 +13,7 @@ public:
         cout << "Конструктор без параметрiв викликаний" << endl;
     }
 
-    // Конструктор з параметрами
+    // Constructor with parameters
     Hourglass(double A, double B) {
         a = A;
         b = B;
