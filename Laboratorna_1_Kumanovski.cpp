@@ -6,7 +6,7 @@ class Hourglass {
     double b;
 
 public:
-    // Конструктор без параметрів
+    // Constructor without parameters
     Hourglass() {
         a = 0;
         b = 0;
