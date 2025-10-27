@@ -1,10 +1,9 @@
 #include <iostream>
 using namespace std;
 
-// Клас "Пісочний годинник"
 class Hourglass {
-    double a; // перший розмір
-    double b; // другий розмір
+    double a;
+    double b;
 
 public:
     // Конструктор без параметрів
