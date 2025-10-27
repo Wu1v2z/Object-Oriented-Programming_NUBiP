@@ -38,22 +38,22 @@ public:
         return (a * b) / 2.0;
     }
 
-    // Функція print_sqrt()
+    // Function print_sqrt()
     void print_sqrt() {
         cout << "a = " << a << ", b = " << b
              << ", площа = " << area() << endl;
     }
 };
 
-// Тип покажчика на функцію-член без параметрів
+// Type of pointer to a member function without parameters
 typedef void (Hourglass::*FuncPtr)();
 
 int main() {
-    // Створення об’єкта за допомогою конструктора без параметрів
+    // Creating an object using the constructor without parameters
     Hourglass h1;
     h1.print_sqrt();
 
-    // Створення об’єкта за допомогою конструктора з параметрами
+    // Creating an object using a constructor with parameters
     Hourglass h2(4, 6);
     h2.print_sqrt();
 
