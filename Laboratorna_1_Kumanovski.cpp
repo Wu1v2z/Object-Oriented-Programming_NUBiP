@@ -25,15 +25,15 @@ public:
         cout << "Деструктор викликаний" << endl;
     }
 
-    // Методи set
+    // Methods set
     void setA(double A) { a = A; }
     void setB(double B) { b = B; }
 
-    // Методи get
+    // Methods get
     double getA() { return a; }
     double getB() { return b; }
 
-    // Метод для обчислення площі (для прикладу: площа = a * b / 2)
+    // Method for calculating area (for example: area = a * b / 2)
     double area() {
         return (a * b) / 2.0;
     }
