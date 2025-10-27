@@ -61,11 +61,11 @@ int main() {
     Hourglass *ptr = new Hourglass(10, 5);
     ptr->print_sqrt();
 
-    // Використання покажчика на функцію
+    //Using a pointer to a function
     FuncPtr f = &Hourglass::print_sqrt;
     (ptr->*f)();
 
-    delete ptr; // руйнування динамічного об’єкта (викличе деструктор)
+    delete ptr; //destruction of a dynamic object
 
     cout << "Кiнець програми" << endl;
     return 0;
