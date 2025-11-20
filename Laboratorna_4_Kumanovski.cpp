@@ -11,8 +11,7 @@ public:
     MyArray(int n) {
         size = n;
         arr = new double[size];
-
-        // Генерація масиву згідно з варіантом 11
+        
         for (int i = 0; i < size; i++) {
             if (i % 2 == 0) {
                 arr[i] = i + 5.1;     // парний індекс
@@ -44,7 +43,7 @@ public:
         return arr[i];
     }
 
-    // Функція виведення масиву (для перевірки)
+    
     void print() const {
         for (int i = 0; i < size; i++) {
             cout << arr[i] << " ";
@@ -53,11 +52,9 @@ public:
     }
 };
 
-// Функція, що приймає об’єкт класу і виконує завдання
 double processArray(MyArray obj) {
     double sum = 0;
 
-    // Кожний другий елемент: індекси 1,3,5,7,9,11
     for (int i = 1; i < obj.getSize(); i += 2) {
         sum += obj.getElement(i);
     }
