@@ -20,27 +20,22 @@ public:
 
     // Методи доступу (Getter/Setter)
 
-    // Отримати значення 'a'
     double getA() const {
         return a;
     }
 
-    // Отримати значення 'b'
     double getB() const {
         return b;
     }
 
-    // Присвоїти значення 'a'
     void setA(double newA) {
         a = (newA >= 0) ? newA : 0;
     }
 
-    // Присвоїти значення 'b'
     void setB(double newB) {
         b = (newB >= 0) ? newB : 0;
     }
 
-    // Обчислення площі (вимога c) 
 
     // Обчислює та повертає площу фігури S = (a * b) / 2
     double calculateArea() const {
