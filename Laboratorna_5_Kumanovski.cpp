@@ -52,7 +52,7 @@ public:
     // Перевантаження бінарного оператора '+' 
     // Створює нову фігуру з параметрами (a1 + a2, b1 + b2)
     Sandglass operator+(const Sandglass& op2) const {
-        
+    
         double new_a = a + op2.a;
         double new_b = b + op2.b;
         return Sandglass(new_a, new_b);
@@ -72,8 +72,8 @@ public:
     Sandglass operator++(int notused) {
         Sandglass temp = *this;
         a++;  
-        b++;                    
-        return temp;            
+        b++;
+        return temp;
     }
 
     // Оголошення дружньої функції для перевантаження оператора '<<' (вимога d та 4)
