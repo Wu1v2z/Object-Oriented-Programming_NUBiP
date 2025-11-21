@@ -81,7 +81,7 @@ ostream& operator<<(ostream& os, const Sandglass& obj) {
     return os;
 }
 
-// Головна функція для демонстрації
+// Функція для демонстрації
 
 int main() {
     // Створення об'єктів (вимога a, b)
