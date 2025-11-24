@@ -46,7 +46,7 @@ public:
     }
 };
 
-// -------------------- ДИЗЕЛЬ ---------------------
+// 
 class Diesel : public ICEngine {
 private:
     double compression;     // ступінь стиснення
