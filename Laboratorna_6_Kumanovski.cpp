@@ -2,7 +2,7 @@
 #include <string>
 using namespace std;
 
-// 
+// базвий клас
 class Engine {
 protected:
     double power;      // потужність у кВт
