@@ -70,7 +70,7 @@ public:
     }
 };
 
-// 
+// турбореактивний двигун
 class TurboJet : public Engine {
 private:
     double thrust;    // тяга в Ньютонах
