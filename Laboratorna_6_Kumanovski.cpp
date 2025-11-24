@@ -23,7 +23,7 @@ public:
     }
 };
 
-// ------------ ДВИГУН ВНУТРІШНЬОГО ЗГОРЯННЯ -------------
+// 
 class ICEngine : public Engine {
 protected:
     double volume;    // робочий об'єм
