@@ -70,7 +70,7 @@ public:
     }
 };
 
-// ------------- ТУРБОРЕАКТИВНИЙ ДВИГУН ---------------
+// 
 class TurboJet : public Engine {
 private:
     double thrust;    // тяга в Ньютонах
@@ -93,7 +93,7 @@ public:
     }
 };
 
-// 
+// main функція
 int main() {
     setlocale(0, "Ukr");
 
