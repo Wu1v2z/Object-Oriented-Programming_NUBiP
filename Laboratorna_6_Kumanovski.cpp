@@ -23,7 +23,7 @@ public:
     }
 };
 
-// 
+// ДВЗ
 class ICEngine : public Engine {
 protected:
     double volume;    // робочий об'єм
