@@ -54,3 +54,26 @@ public:
              << " і " << b << ", висота " << h << endl;
     }
 };
+
+int main() {
+    setlocale(0, "Ukr");
+
+    vector<GeometricFigure*> figures;
+
+    figures.push_back(new EquilateralTriangle(5));
+    figures.push_back(new Trapezoid(4, 7, 3));
+    figures.push_back(new EquilateralTriangle(10));
+
+    cout << "Виведення площ через поліморфізм:\n\n";
+
+    for (auto f : figures) {
+        f->Info();
+        cout << "Площа = " << f->Area() << "\n\n";
+    }
+
+    // очищення пам'яті
+    for (auto f : figures)
+        delete f;
+
+    return 0;
+}
