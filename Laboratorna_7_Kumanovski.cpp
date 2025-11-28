@@ -8,7 +8,7 @@ using namespace std;
 
 class GeometricFigure {
 public:
-    virtual double Area() const = 0;   // чисто віртуальна функція
+    virtual double Area() const = 0;
     virtual void Info() const {
         cout << "Геометрична фігура" << endl;
     }
@@ -19,7 +19,7 @@ public:
 
 class Triangle : public GeometricFigure {
 protected:
-    double a, b, c; // сторона трикутника
+    double a, b, c; // сторони трикутника
 public:
     Triangle(double A, double B, double C) : a(A), b(B), c(C) {}
 
