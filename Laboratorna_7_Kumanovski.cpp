@@ -12,3 +12,15 @@ public:
     }
     virtual ~GeometricFigure() {}
 };
+
+class Triangle : public GeometricFigure {
+protected:
+    double a, b, c; // сторона трикутника
+public:
+    Triangle(double A, double B, double C) : a(A), b(B), c(C) {}
+
+    void Info() const override {
+        cout << "Трикутник зі сторонами: "
+             << a << ", " << b << ", " << c << endl;
+    }
+};
