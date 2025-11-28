@@ -63,6 +63,8 @@ public:
     }
 };
 
+// MAIN
+
 int main() {
     setlocale(0, "Ukr");
 
