@@ -4,6 +4,8 @@
 
 using namespace std;
 
+// Абстрактна геометрична фігура 
+
 class GeometricFigure {
 public:
     virtual double Area() const = 0;   // чисто віртуальна функція
