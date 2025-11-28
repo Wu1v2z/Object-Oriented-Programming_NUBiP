@@ -44,6 +44,8 @@ public:
     }
 };
 
+// Трапеція
+
 class Trapezoid : public GeometricFigure {
 private:
     double a, b, h; // основа1, основа2, висота
