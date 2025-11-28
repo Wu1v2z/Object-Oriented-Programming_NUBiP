@@ -38,3 +38,19 @@ public:
     }
 };
 
+class Trapezoid : public GeometricFigure {
+private:
+    double a, b, h; // основа1, основа2, висота
+public:
+    Trapezoid(double A, double B, double H)
+        : a(A), b(B), h(H) {}
+
+    double Area() const override {
+        return (a + b) * h / 2.0;
+    }
+
+    void Info() const override {
+        cout << "Трапеція з основами " << a
+             << " і " << b << ", висота " << h << endl;
+    }
+};
