@@ -15,7 +15,7 @@ public:
     virtual ~GeometricFigure() {}
 };
 
-// Абстрактний трикутник
+// трикутник
 
 class Triangle : public GeometricFigure {
 protected:
