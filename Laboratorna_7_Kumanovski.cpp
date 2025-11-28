@@ -24,3 +24,17 @@ public:
              << a << ", " << b << ", " << c << endl;
     }
 };
+
+class EquilateralTriangle : public Triangle {
+public:
+    EquilateralTriangle(double A) : Triangle(A, A, A) {}
+
+    double Area() const override {
+        return (sqrt(3) / 4) * a * a;
+    }
+
+    void Info() const override {
+        cout << "Рівносторонній трикутник зі стороною " << a << endl;
+    }
+};
+
