@@ -29,6 +29,8 @@ public:
     }
 };
 
+// Рівносторонній трикутник
+
 class EquilateralTriangle : public Triangle {
 public:
     EquilateralTriangle(double A) : Triangle(A, A, A) {}
